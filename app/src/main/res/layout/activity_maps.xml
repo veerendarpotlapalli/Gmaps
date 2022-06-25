@@ -26,7 +26,7 @@
         android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_above="@+id/edit2"
+        android:layout_above="@+id/button"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
@@ -42,25 +42,20 @@
         android:padding="15dp"
         android:textSize="20dp" />
 
+    <EditText
+        android:id="@+id/editpick"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:focusable="false"
+        android:inputType="text"
+        android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/edit2"
-        android:layout_width="match_parent"
+        android:id="@+id/editdest"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/button"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
-        android:background="@drawable/search_bg"
-        android:contextClickable="true"
-        android:drawableLeft="@drawable/ic_baseline_location_on_24"
-        android:drawablePadding="15dp"
-        android:enabled="true"
         android:focusable="false"
-        android:gravity="center_vertical"
-        android:hint="Your Destination"
         android:inputType="text"
-        android:padding="15dp"
         android:textSize="20dp" />
 
 
@@ -75,9 +70,25 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/button_bg"
-        android:text="CONFIRM LOCATION"
+        android:text="CONFIRM Pickup"
         android:textColor="@color/white"
         android:textSize="20dp" />
 
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_bg"
+        android:visibility="invisible"
+        android:text="CONFIRM Ride"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
 </RelativeLayout>

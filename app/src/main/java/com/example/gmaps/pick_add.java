@@ -24,7 +24,7 @@ public class pick_add extends AppCompatActivity {
 
         setContentView(R.layout.activity_pick_add);
 
-        searchView = findViewById(R.id.search);
+        searchView = findViewById(R.id.pickup);
             searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override
                 public boolean onQueryTextSubmit(String s) {

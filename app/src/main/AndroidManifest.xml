@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gmaps">
         <activity
+            android:name=".pick_dest"
+            android:exported="false" />
+        <activity
             android:name=".pick_add"
             android:exported="false" />
         <!--
@@ -43,7 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

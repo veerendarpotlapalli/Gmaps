@@ -11,8 +11,10 @@
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/drawable/ic_pin.xml" value="0.108" />
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/drawable/search_2bg.xml" value="0.108" />
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/drawable/search_bg.xml" value="0.108" />
+        <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/layout/activity_map_dest.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/layout/activity_maps.xml" value="0.22" />
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/layout/activity_pick_add.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/layout/activity_pick_dest.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bhagy/Gmaps/app/src/main/res/layout/pick_activity.xml" value="0.22" />
       </map>
     </option>
